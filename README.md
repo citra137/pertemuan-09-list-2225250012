@@ -34,11 +34,12 @@ python praktik/analisis_nilai_mahasiswa.py
 | [78, 55, 90, 67, 60, 82, 45, 71, 88, 59] | Rata-rata 69.50, jumlah lulus 7, belum lulus 3 | Rata-rata 69.50, jumlah lulus 7, belum lulus 3 | Berhasil |
 
 ## Refleksi
-Saya memahami bahwa list digunakan untuk menyimpan
-banyak data dalam satu variabel dan indeks dimulai dari 0.
 
-Saya juga memahami cara menghitung rata-rata dan
-menentukan kelulusan menggunakan perulangan dan fungsi.
+Saya memahami bahwa list digunakan untuk menyimpan banyak data dalam satu variabel dan indeks dimulai dari 0.
+
+Saya juga memahami cara menghitung rata-rata dan menentukan kelulusan menggunakan perulangan dan fungsi.
+
+Kesalahan yang berhasil saya perbaiki adalah kurangnya komentar pada kode latihan. Saya menambahkan komentar input, proses, dan output agar setiap langkah program lebih mudah dipahami.
 
 ## Sumber dan Bantuan
 Bahan Ajar Algoritma dan Pemrograman Pertemuan 09.
