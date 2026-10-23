@@ -1,8 +1,8 @@
-
 def rata_rata(data):
     if len(data) == 0:
         return 0
     return sum(data) / len(data)
+
 
 def nilai_lulus(data, batas=60):
     hasil = []
@@ -10,6 +10,7 @@ def nilai_lulus(data, batas=60):
         if x >= batas:
             hasil.append(x)
     return hasil
+
 
 nilai = [78, 55, 90, 67, 60, 82, 45, 71, 88, 59]
 

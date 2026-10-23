@@ -26,21 +26,12 @@ Jalankan program melalui VS Code atau terminal:
 python praktik/analisis_nilai_mahasiswa.py
 
 ## Test Case
-Data: [78, 55, 90, 67, 60, 82, 45, 71, 88, 59]
-
-Hasil yang diharapkan:
-- Banyak data: 10
-- Total: 695
-- Rata-rata: 69.50
-- Minimum: 45
-- Maksimum: 90
-- Jumlah lulus: 7
-- Belum lulus: 3
-
-Hasil aktual:
-Sesuai dengan hasil yang diharapkan.
-
-Status: Berhasil.
+| Data Uji | Hasil yang Diharapkan | Hasil Aktual | Status |
+|---|---|---|---|
+| [60, 70, 80] | Rata-rata 70.00, minimum 60, maksimum 80, jumlah lulus 3 | Rata-rata 70.00, minimum 60, maksimum 80, jumlah lulus 3 | Berhasil |
+| [59, 60, 61] | Jumlah lulus 2 | Jumlah lulus 2 | Berhasil |
+| [] | Fungsi rata-rata tidak error | Fungsi mengembalikan 0 tanpa error | Berhasil |
+| [78, 55, 90, 67, 60, 82, 45, 71, 88, 59] | Rata-rata 69.50, jumlah lulus 7, belum lulus 3 | Rata-rata 69.50, jumlah lulus 7, belum lulus 3 | Berhasil |
 
 ## Refleksi
 Saya memahami bahwa list digunakan untuk menyimpan
